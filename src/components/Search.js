@@ -18,7 +18,7 @@ export default class Search extends Component {
                 <div className="input-group">
                     <input type="text" name="search"
                     className="form-control"
-                    placeholder="chicken,onion,carrots"
+                    placeholder="chicken, onion, carrots"
                     value={search}
                     onChange={handleChange}
                     />
